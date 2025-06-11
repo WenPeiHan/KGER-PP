@@ -1,0 +1,41 @@
+EMBEDDING_SETTINGS:
+  adversarial_temperature: 1.0
+  batch_size: 1024
+  cpu_num: 8
+  double_entity_embedding: false
+  double_relation_embedding: false
+  gamma: 12.0
+  init_checkpoint: None
+  learning_rate: 0.0001
+  log_steps: 100
+  max_steps: 100
+  negative_adversarial_sampling: true
+  negative_sample_size: 128
+  regularization: 0.0
+  save_checkpoint_steps: 100000
+  test_batch_size: 4
+  test_log_steps: 1000
+  uni_weight: false
+  valid_steps: 100000
+  warm_up_steps: null
+  hidden_dim: 400
+  train: true
+  nentity: 0
+  nrelation: 0
+  do_valid: true
+  cuda: true
+  countries: false
+GLOBAL_CONFIG:
+  CONFIG_NAME: config.yml
+  DATA_DIRECTORY: data/
+  GRAPH_FILE_NAME: graph
+  JSON_EXPORT_FILE: graph
+  MODEL: TransE
+  NODE_DICT_FILE_NAME: entities
+  PROJECT_NAME: fxq
+  RELATION_DICT_FILE_NAME: relations
+  TRAIN: true
+GRAPH_DATABASE:
+  PASSWORD: 123456
+  URL: bolt://0.0.0.0:7687
+  USERNAME: neo4j
