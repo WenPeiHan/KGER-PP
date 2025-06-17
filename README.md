@@ -2,8 +2,6 @@
 
 The framework consists of three stages: process planning semantic parsing,  structural and semantic enhancement method (StSeEM), and graph reasoning path-guided tuning.
 
-<img src="https://gitee.com/feng-xueqian/pic-go/raw/master/Figure_model_overall_flow.png" alt="Figure_model_overall_flow" style="zoom: 10%;" />
-
 ## Instructions
 
 ### Process planning semantic parsing
