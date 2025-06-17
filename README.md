@@ -1,7 +1,8 @@
-KGER-PP, Knowledge Graph-Enhanced Reasoning for Process Planning based on Large Language Models. The framework consists of three stages: process planning semantic parsing,  structural and semantic enhancement method (StSeEM), and graph reasoning path-guided tuning.
+# KGER-PP, Knowledge Graph-Enhanced Reasoning for Process Planning based on Large Language Models. 
 
-![Figure_model_overall_flow](https://gitee.com/feng-xueqian/pic-go/raw/master/Figure_model_overall_flow.png)
+The framework consists of three stages: process planning semantic parsing,  structural and semantic enhancement method (StSeEM), and graph reasoning path-guided tuning.
 
+<img src="https://gitee.com/feng-xueqian/pic-go/raw/master/Figure_model_overall_flow.png" alt="Figure_model_overall_flow" style="zoom: 33%;" />
 ## Instructions
 
 ### Process planning semantic parsing
